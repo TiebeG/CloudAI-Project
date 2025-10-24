@@ -8,7 +8,17 @@
 - Sander Wijns
 
 ## 🗂️ Project Structure
-```📦 cloudAI-Project/
+📦 cloudAI-Project/
+```
+├── Data
+    ├── housing_prices
+        └── price_paid_records.csv
+    └── demand_prices
+        ├── demanddata2001
+        ├── demanddata2002
+        ├── ...
+        ├── demanddata2004
+        └── demanddata2025
 ├── app.py                     
 ├── Scraping
     ├── scraping UK Housing Prices Paid
