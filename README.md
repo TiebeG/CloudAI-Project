@@ -8,7 +8,7 @@
 - Sander Wijns
 
 ## 🗂️ Project Structure
-📦 cloudAI-Project/
+```📦 cloudAI-Project/
 ├── app.py                     
 ├── Scraping
     ├── scraping UK Housing Prices Paid
@@ -22,7 +22,8 @@
 ├── Final loading and preparing
     ├── from rough data to prepared data (with no graphs) UK Housing Prices Paid
     └── from rough data to prepared data (with no graphs) Historic Demand Data 2025
-└── .env                       
+└── .env
+```                   
 
 ## Deploy
 - Frontend: use streamlit
