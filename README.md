@@ -20,14 +20,11 @@
         ├── demanddata2004
         └── demanddata2025
 ├── app.py                     
-├── Scraping
-    ├── scraping UK Housing Prices Paid
-    └── scraping Historic Demand Data 2025
 ├── Cleaning
-    ├── cleaning UK Housing Prices Paid
+    ├── cleaning UK Housing Prices Paid.ipnyb
     └── cleaning Historic Demand Data 2025
 ├── Exploring
-    ├── exploring UK Housing Prices Paid
+    ├── exploring UK Housing Prices Paid.ipnyb
     └── exploring Historic Demand Data 2025
 ├── Final loading and preparing
     ├── from rough data to prepared data (with no graphs) UK Housing Prices Paid
