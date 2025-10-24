@@ -3,9 +3,9 @@
 ## Huis Piraatjes
 
 ## Our team
-Tiebe goossens
-Renzo Schrepers
-Sander Wijns
+- Tiebe Goossens
+- Renzo Schrepers
+- Sander Wijns
 
 ## 🗂️ Project Structure
 📦 cloudAI-Project/
