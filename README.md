@@ -21,10 +21,10 @@
         └── demanddata2025
 ├── app.py                     
 ├── Cleaning
-    ├── cleaning UK Housing Prices Paid.ipnyb
+    ├── cleaning UK Housing Prices Paid.ipynb
     └── cleaning Historic Demand Data 2025
 ├── Exploring
-    ├── exploring UK Housing Prices Paid.ipnyb
+    ├── exploring UK Housing Prices Paid.ipynb
     └── exploring Historic Demand Data 2025
 ├── Final loading and preparing
     ├── from rough data to prepared data (with no graphs) UK Housing Prices Paid
