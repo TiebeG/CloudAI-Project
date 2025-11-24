@@ -1,12 +1,12 @@
+# Author: Renzo Schreppers
+
 import os
 import sys
 import pickle
-import lightgbm as lgb # Needed so Python recognizes the LightGBM object
-import pycaret         # Needed so Python recognizes the PyCaret object
+import lightgbm as lgb
+import pycaret
 
 # --- CONFIGURATION ---
-# Just list the paths to your files here. 
-# Both should end in .pkl because that is how they are stored on disk.
 MODELS_TO_CHECK = [
     "Models/housing_prices/pycaret_best_housing_model_10_lgbm.pkl",
     "Models/lightgbm_nd_time.pkl"
@@ -20,7 +20,7 @@ def check_model_health(file_path):
         print(f"❌ FAIL: File not found at {file_path}")
         return False
     
-    # 2. Integrity Check (Can we unpickle it?)
+    # 2. Integrity Check (Unpickling)
     try:
         with open(file_path, 'rb') as f:
             model = pickle.load(f)
@@ -47,7 +47,7 @@ if __name__ == "__main__":
             
     if all_passed:
         print("\n🎉 SUCCESS: All models are healthy.")
-        sys.exit(0) # Pass
+        sys.exit(0)
     else:
         print("\n💀 FAILURE: One or more models are missing or broken.")
-        sys.exit(1) # Fail
+        sys.exit(1)
