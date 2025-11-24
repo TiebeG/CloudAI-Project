@@ -35,5 +35,5 @@
 ## Deploy
 - Frontend: use streamlit
 - Backend: look into unused backend languages
-- Pipeline to automate updates
-- Hosting: look into Oracle
+- Pipeline: to check if the models are present and have no errors
+- Hosting: https://cornelia-fellable-unmundanely.ngrok-free.dev
