@@ -40,7 +40,7 @@ if not nd_model_path.exists():
 
 nd_model = joblib.load(nd_model_path)
 
-ND_FEATURES = ["hour", "day", "month", "year"]
+ND_FEATURES = ["hour", "day", "month", "year", "dayofweek", "is_weekend", "is_holiday"]
 
 @app.post("/predict_nd")
 def predict_nd(features: dict):
