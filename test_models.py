@@ -8,8 +8,8 @@ import pycaret         # Needed so Python recognizes the PyCaret object
 # Just list the paths to your files here. 
 # Both should end in .pkl because that is how they are stored on disk.
 MODELS_TO_CHECK = [
-    "Models\\housing_prices\\pycaret_best_housing_model_10_lgbm.pkl",
-    "Models\\lightgbm_nd_time.pkl"
+    "Models/housing_prices/pycaret_best_housing_model_10_lgbm.pkl",
+    "Models/lightgbm_nd_time.pkl"
 ]
 
 def check_model_health(file_path):
