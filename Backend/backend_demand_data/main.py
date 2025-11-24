@@ -29,7 +29,7 @@ import json
 app = FastAPI(title="National Demand Predictor")
 
 # Load model + features
-model = lgb.Booster(model_file="nd_model.txt")
+model = lgb.Booster(model_file="nd_time_model_with_extra.txt")
 
 try:
     joblib = importlib.import_module("joblib")
@@ -41,7 +41,7 @@ import os
 if os.path.exists("nd_model.pkl"):
     model = joblib.load("nd_model.pkl")
 
-with open("feature_names.json") as f:
+with open("time_based_feature_names_with_extra.json") as f:
     feature_names = json.load(f)
 
 @app.get("/")
